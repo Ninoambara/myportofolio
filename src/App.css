@@ -1,0 +1,12 @@
+.link.active {
+  color: #ffdb70;
+  border-bottom: 2px solid #ffdb70; 
+}
+
+
+.link {
+  color: #7d7d7d; 
+  text-decoration: none; 
+  transition: color 0.3s, border-bottom 0.1s; 
+}
+
