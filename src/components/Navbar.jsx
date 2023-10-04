@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
-import "../App.css"
+import "../App.css";
 
 export default function Navbar() {
   const location = useLocation();
@@ -74,7 +74,9 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
-        <div className="p-5">
+      </div>
+      <div className="mt-20 p-5">
+        <div className="container mx-auto">
           <Outlet />
         </div>
       </div>
