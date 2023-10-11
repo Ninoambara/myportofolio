@@ -61,15 +61,13 @@ export default function Navbar() {
                   Portfolio
                 </Link>
               </li>
-              <li className="fadein-bot fadein-3">
-                <Link
-                  to="/blog"
-                  className={`link border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0 blog ${
-                    location.pathname === "/blog" ? "active" : "text-gray-700"
-                  }`}
+              <li className="fadein-bot fadein-3 border border-[#ffdb70] px-1 rounded pict">
+                <a
+                  href="mailto:ninoambara1@gmail.com" 
+                  className={`text-[#ffdb70] border-gray-100 text-sm md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0`}
                 >
-                  Blog
-                </Link>
+                  Contact Me
+                </a>
               </li>
             </ul>
           </div>

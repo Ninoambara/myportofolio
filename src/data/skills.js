@@ -182,3 +182,76 @@ export const application = [
     status: "Realtime Database",
   },
 ];
+
+export const items = [
+  {
+    id: 1,
+    name: "Personal Website",
+    imageUrl: "https://i.ibb.co/4mMQm43/Screenshot-2023-10-11-115925.png",
+    status:
+      "My personal website, I created this website to display my profile, skills and projects.",
+    tech: "React JS, Tailwind",
+    github: "https://github.com/rakha-elctrnx/Portofolio-v2",
+    demo: "https://bagasrakha.netlify.app/",
+  },
+  {
+    id: 2,
+    name: "SQR",
+    imageUrl: "https://i.ibb.co/hBSRjnV/Screenshot-2226.png",
+    status:
+      "mobile-based application which is an application for buying and selling Qurban",
+    tech: "React Native, Expo",
+    github: "https://github.com/SQR-HACKTIV8/Frontend.git",
+    demo: "null",
+  },
+  {
+    id: 3,
+    name: "WoodRealms",
+    imageUrl: "https://i.ibb.co/3p4sVkR/Screenshot-2023-10-11-120901.png",
+    status:
+      "A web based e-commerce app with content that sells lots of very high quality wooden furniture",
+    tech: "Vue JS, Bootstrap",
+    github: "https://github.com/Ninoambara/WoodRealms.git",
+    demo: "null",
+  },
+  {
+    id: 4,
+    name: "Hackfit",
+    imageUrl: "https://i.ibb.co/qWSr4zT/Screenshot-2023-10-11-121233.png",
+    status:
+      "web-based application which sells various kinds of gym needs and nutrition for the gym",
+    tech: "Vanilla JS, Bootstrap",
+    github: "https://github.com/Ninoambara/hackfit",
+    demo: "https://ninoambara.github.io/hackfit/",
+  },
+  {
+    id: 5,
+    name: "Realtime Clock",
+    imageUrl: "https://i.ibb.co/Hg6z8BT/Screenshot-2023-10-11-122225.png",
+    status:
+      "web-based application that shows the current time in realtime  with a simple design",
+    tech: "HTML, CSS, JS",
+    demo: "https://clock--ninoambara.repl.co/",
+    github: "https://github.com/Ninoambara/Clock",
+  },
+  {
+    id: 5,
+    name: "CFK CMS",
+    imageUrl: "https://i.ibb.co/GMDZbyM/Screenshot-2023-10-11-123339.png",
+    status:
+      "web-based kfc admin panel clone application which contains CRUD technology",
+    tech: "React JS, Bootstrap",
+    github: "https://github.com/Ninoambara/CFK-Web.git",
+    demo: "null",
+  },
+  {
+    id: 5,
+    name: "CFK Mobile",
+    imageUrl: "https://i.ibb.co/FhshdTj/Screenshot-2023-10-11-144645.png",
+    status:
+      "Mobile-based KFC clone application with various interesting features in it",
+    tech: "React Native, Bootstrap",
+    github: "https://github.com/Ninoambara/CFK-mobile-app.git",
+    demo: "null",
+  },
+];

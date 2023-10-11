@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 import { delay, motion, useAnimate, usePresence } from "framer-motion";
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   const [isPresent, safeToRemove] = usePresence();
@@ -37,12 +37,12 @@ export default function Home() {
               className="wrap"
               sequence={[
                 "Full-stack Developer",
-                1000, 
-                "Tech entuasim",
                 1000,
-                "Javascript enthuasim",
+                "Tech Enthusiast",
                 1000,
-                "Web Developer",
+                "Javascript Enthusiast",
+                1000,
+                "Mobile Developer",
                 1000,
               ]}
               wrapper="span"

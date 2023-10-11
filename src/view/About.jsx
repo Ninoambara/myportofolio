@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { application, techStack } from "../data/skills";
+import { delay, motion, useAnimate, usePresence } from "framer-motion";
 
 export default function About() {
   const [activeBtn, setActiveBtn] = useState(" actived");
   const [activeBtn2, setActiveBtn2] = useState("");
   const [selectedData, setSelectedData] = useState(techStack);
+  const [isPresent, safeToRemove] = usePresence();
+  const [scope, animate] = useAnimate();
 
   const handleButton = (type) => {
     if (type === "techStack") {
@@ -19,12 +22,26 @@ export default function About() {
   };
 
   useEffect(() => {
-    setSelectedData(techStack);
+    if (isPresent) {
+      const enterAnimation = async () => {
+        await animate(
+          scope.current,
+          { opacity: [0, 1] },
+          { duration: 0.6 },
+          { delay: 0.1 }
+        );
+      };
+      enterAnimation();
+      setSelectedData(techStack);
+    }
   }, []);
 
   return (
     <>
-      <div className="bg-[#1e1e1f] mx-20 px-5 py-20 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mb-5">
+      <div
+        ref={scope}
+        className="bg-[#1e1e1f] mx-20 px-5 py-20 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mb-5"
+      >
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-2/6 pr-8">
             <h1 className="text-3xl text-center mb-10">About Me</h1>

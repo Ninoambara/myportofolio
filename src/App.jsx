@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./view/Home";
 import About from "./view/About";
 import Navbar from "./components/Navbar";
+import Portofolio from "./view/Portofolio";
 // import { router } from "./routers";
 
 export default function App() {
@@ -19,6 +20,10 @@ export default function App() {
         {
           path: "/about",
           element: <About />
+        },
+        {
+          path: "/portfolio",
+          element: <Portofolio/>
         }
       ]
     },
