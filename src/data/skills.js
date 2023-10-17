@@ -254,4 +254,14 @@ export const items = [
     github: "https://github.com/Ninoambara/CFK-mobile-app.git",
     demo: "null",
   },
+  {
+    id: 5,
+    name: "Simple To-do list",
+    imageUrl: "https://i.ibb.co/ypSvb6C/Screenshot-2023-10-17-131718.png",
+    status:
+      "Web-based To-do list application with a simple design",
+    tech: "React JS, Tailwind",
+    github: "https://github.com/Ninoambara/todolist",
+    demo: "https://simpletodolistt.netlify.app/",
+  },
 ];
