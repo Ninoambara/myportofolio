@@ -28,11 +28,11 @@ export default function Home() {
     >
       <div className="space-y-2 text-center md:text-left px-10">
         <p className="text-amber-200">Hello World, I'm</p>
-        <h1 className="text-4xl font-bold md:text-5xl text-white fadein-up">
+        <h1 className="text-xl font-bold md:text-5xl text-white fadein-up">
           Nino Ambara
         </h1>
         <div className="py-2">
-          <h1 className="typewrite text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-yellow-500 md:text-2xl fadein-up overflow-hidden">
+          <h1 className="typewrite text-md font-semibold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-yellow-500 md:text-2xl fadein-up overflow-hidden">
             <TypeAnimation
               className="wrap"
               sequence={[

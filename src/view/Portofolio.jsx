@@ -3,8 +3,8 @@ import { items } from "../data/skills";
 
 const Portofolio = () => {
   return (
-    <div className="px-20">
-      <div className="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
+    <div className="md:px-20">
+      <div className=" py-5 md:px-12 md:py-10 text-left text-amber-50 md:mx-3">
         <article data-page="about">
           <header>
             <div className="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">

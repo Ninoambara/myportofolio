@@ -40,23 +40,23 @@ export default function About() {
     <>
       <div
         ref={scope}
-        className="bg-[#1e1e1f] mx-20 px-5 py-20 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mb-5"
+        className="bg-[#1e1e1f] md:mx-20 px-5 py-2 md:px-12 md:py-10 text-center md:text-left border border-[#383838] rounded-3xl text-amber-50 mb-5"
       >
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-2/6 pr-8">
-            <h1 className="text-3xl text-center mb-10">About Me</h1>
+            <h1 className="text-3xl ms-6 md:ms-0 text-center mb-10">About Me</h1>
             <img
               alt="avatar"
               width="100"
               height="100"
               decoding="async"
               data-nimg="1"
-              className="w-full h-auto rounded-full"
+              className="w-full h-auto ms-4 md: rounded-full"
               src="https://i.ibb.co/JkjMc4t/500x500.png"
             />
           </div>
-          <div className="ml-0 md:ml-10 w-full md:w-4/6 text-lg">
-            <p style={{ fontSize: 18 }}>
+          <div className="ml-0 md:ml-10 w-full md:w-4/6 md:text-sm text-xs">
+            <p>
               I am someone who is deeply passionate about web development and
               mobile app development, having recently graduated from the
               Hacktiv8 bootcamp as a full-stack Javascript developer with a
@@ -67,7 +67,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className=" m-5 text-white p-20">
+      <div className=" md:m-5 text-white md:p-20">
         <h1 className="text-xl mb-5">My Skills</h1>
         <button
           onClick={() => handleButton("techStack")}
@@ -82,7 +82,7 @@ export default function About() {
           Tools
         </button>
         <div>
-          <div className="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
+          <div className="grid grid-cols-2 gap-3 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
             {selectedData.map((item, index) => (
               <div key={index}>
                 <div className="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
@@ -99,14 +99,11 @@ export default function About() {
                       style={{ color: "transparent" }}
                     />
                   </div>
-                  <div className="flex items-center text-sm md:text-base lg:text-md">
-                    <div className="tech font-medium text-secondary transition-all duration-300 translate-y-0">
+                  <div className="flex items-center   md:text-base lg:text-md">
+                    <div className="tech font-medium text-[15px] md:text-sm text-secondary transition-all duration-300 translate-y-0">
                       {item.name}
                     </div>
-                    <div
-                      className="status-tech opacity-0 absolute mt-5 text-[5px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm"
-                      style={{ fontSize: 14 }}
-                    >
+                    <div className="status-tech opacity-0 absolute mt-5 text-amber-200 transition-all duration-300 text-[10px] md:text-xs">
                       {item.status}
                     </div>
                   </div>
