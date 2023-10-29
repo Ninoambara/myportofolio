@@ -82,7 +82,7 @@ export default function About() {
           Tools
         </button>
         <div>
-          <div className="grid grid-cols-2 gap-3 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
+          <div className="grid grid-cols-2 gap-3 pb-32 md:grid-cols-3 md:gap-10 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
             {selectedData.map((item, index) => (
               <div key={index}>
                 <div className="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
@@ -103,7 +103,7 @@ export default function About() {
                     <div className="tech font-medium text-[15px] md:text-sm text-secondary transition-all duration-300 translate-y-0">
                       {item.name}
                     </div>
-                    <div className="status-tech opacity-0 absolute mt-5 text-amber-200 transition-all duration-300 text-[10px] md:text-xs">
+                    <div className="status-tech opacity-0 absolute mt-5 text-amber-200 transition-all duration-300 text-3xs md:text-[12px]">
                       {item.status}
                     </div>
                   </div>
