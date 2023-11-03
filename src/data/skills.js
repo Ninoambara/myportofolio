@@ -187,7 +187,7 @@ export const items = [
   {
     id: 1,
     name: "Personal Website",
-    imageUrl: "https://i.ibb.co/4mMQm43/Screenshot-2023-10-11-115925.png",
+    imageUrl: "https://imgdb.net/storage/uploads/fe2fb3c578c095e6cf48fffcd3db6dea155d650bd729bc8b608359b4ee0d06ff.png",
     status:
       "My personal website, I created this website to display my profile, skills and projects.",
     tech: "React JS, Tailwind",
@@ -197,7 +197,7 @@ export const items = [
   {
     id: 2,
     name: "SQR",
-    imageUrl: "https://i.ibb.co/hBSRjnV/Screenshot-2226.png",
+    imageUrl: "https://imgdb.net/storage/uploads/f2218d57827bb872cc00a974cb36027bcd1b2eebc1042ecba047261727e7eb71.png",
     status:
       "mobile-based application which is an application for buying and selling Qurban",
     tech: "React Native, Expo",
@@ -207,7 +207,7 @@ export const items = [
   {
     id: 3,
     name: "WoodRealms",
-    imageUrl: "https://i.ibb.co/3p4sVkR/Screenshot-2023-10-11-120901.png",
+    imageUrl: "https://imgdb.net/storage/uploads/c577b6caf61119211e646801cdff9cf76b5eaa63653ff4191210ab97d1143c26.png",
     status:
       "A web based e-commerce app with content that sells lots of very high quality wooden furniture",
     tech: "Vue JS, Bootstrap",
@@ -217,7 +217,7 @@ export const items = [
   {
     id: 4,
     name: "Hackfit",
-    imageUrl: "https://i.ibb.co/qWSr4zT/Screenshot-2023-10-11-121233.png",
+    imageUrl: "https://imgdb.net/storage/uploads/96c7af937de074d39493f532759440ab6d14b0446f428469aab72decfbf9ec06.png",
     status:
       "web-based application which sells various kinds of gym needs and nutrition for the gym",
     tech: "Vanilla JS, Bootstrap",
@@ -227,7 +227,7 @@ export const items = [
   {
     id: 5,
     name: "Realtime Clock",
-    imageUrl: "https://i.ibb.co/Hg6z8BT/Screenshot-2023-10-11-122225.png",
+    imageUrl: "https://imgdb.net/storage/uploads/61adafdba77c597ef4349569781f63c02e241559510d6244d16e3dac9db43195.png",
     status:
       "web-based application that shows the current time in realtime  with a simple design",
     tech: "HTML, CSS, JS",
@@ -237,7 +237,7 @@ export const items = [
   {
     id: 5,
     name: "CFK CMS",
-    imageUrl: "https://i.ibb.co/GMDZbyM/Screenshot-2023-10-11-123339.png",
+    imageUrl: "https://imgdb.net/storage/uploads/834956c1647558acd620bb9d8546d80ed9206d3e816b09da34b931242eb10815.png",
     status:
       "web-based kfc admin panel clone application which contains CRUD technology",
     tech: "React JS, Bootstrap",
@@ -247,7 +247,7 @@ export const items = [
   {
     id: 5,
     name: "CFK Mobile",
-    imageUrl: "https://i.ibb.co/FhshdTj/Screenshot-2023-10-11-144645.png",
+    imageUrl: "https://imgdb.net/storage/uploads/939ad47b3bec7a536f4aad2a48f5ca23b3fe56721046b36efaddeb700d34b896.png",
     status:
       "Mobile-based KFC clone application with various interesting features in it",
     tech: "React Native, Bootstrap",
@@ -257,7 +257,7 @@ export const items = [
   {
     id: 5,
     name: "Simple To-do list",
-    imageUrl: "https://i.ibb.co/ypSvb6C/Screenshot-2023-10-17-131718.png",
+    imageUrl: "https://imgdb.net/storage/uploads/840e40e90c01e81260ba74b0d8d09595a4719a62f8df72c410a6fec8c8ee0aea.png",
     status:
       "Web-based To-do list application with a simple design",
     tech: "React JS, Tailwind",
